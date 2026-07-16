@@ -17,7 +17,7 @@ import random
 
 
 while True:
-    system = random.choice([-1, 0, 1])
+    opponent = random.choice([-1, 0, 1])
 
     userstring = input("Enter your choice (r/p/s): ").lower()
     userDictionary = {"r": 1, "p": -1, "s": 0}
@@ -29,28 +29,28 @@ while True:
 
     user = userDictionary[userstring] 
 
-    print(f"You chose {reverseDictionary[user]} \n Computer chose {reverseDictionary[system]}")
+    print(f"You chose {reverseDictionary[user]} \n Opponent chose {reverseDictionary[opponent]}")
 
-    if(system == user):
+    if(opponent == user):
         print("Its a Draw!")
 
     else:
-        if(system == 1 and user == -1):
+        if(opponent == 1 and user == -1):
             print("You Won!")
 
-        elif(system == 1 and user == 0):
+        elif(opponent == 1 and user == 0):
             print("You Lose!")
 
-        elif(system == -1 and user == 1):
+        elif(opponent == -1 and user == 1):
             print("You Lose!")
             
-        elif(system == -1 and user == 0):
+        elif(opponent == -1 and user == 0):
             print("You Won!")   
 
-        elif(system == 0 and user == 1):
+        elif(opponent == 0 and user == 1):
             print("You Won!")
 
-        elif(system == 0 and user == -1):
+        elif(opponent == 0 and user == -1):
             print("You Lose!")
 
         else:
@@ -63,6 +63,14 @@ while True:
 
 
      
+
+        
+    
+
+
+
+
+
 
         
     
