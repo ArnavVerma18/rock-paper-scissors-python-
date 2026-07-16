@@ -5,7 +5,7 @@ This project was created as part of my Python learning journey to strengthen my 
 
 - Variables and Data Types
 - Dictionaries
-- Conditional Statements (`if`, `elif`, `else`)
+- Conditional Statements (`if`, `elif`, 'else' )
 - User Input Handling
 - Random Number Generation
 - Error Handling
